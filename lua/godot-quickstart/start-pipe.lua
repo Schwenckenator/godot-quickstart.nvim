@@ -1,5 +1,5 @@
 --- Start the pipe to listen for Godot commands
----@param project_dirs string[]
+---@param project_dirs string[]?
 local function start_pipe(project_dirs)
   local dirs = project_dirs or { '' }
   local godot_project_path = ''
